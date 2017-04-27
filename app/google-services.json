@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "134537241709",
+    "firebase_url": "https://mtgorganizer-318f1.firebaseio.com",
+    "project_id": "mtgorganizer-318f1",
+    "storage_bucket": "mtgorganizer-318f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134537241709:android:83c002391b6ebb60",
+        "android_client_info": {
+          "package_name": "lite.organizer.mtg.harlequin.com.hedronalignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134537241709-nsnb8qrhraq6b07oqrv2dt110uprk3t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lite.organizer.mtg.harlequin.com.hedronalignment",
+            "certificate_hash": "A9A5219C17D17861241D7E3936AFD8FB2EE28654"
+          }
+        },
+        {
+          "client_id": "134537241709-g6p39339fh40bo5emop90q33bmk24649.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUlMzYNA8Hbt2JilYR6TV2b4tPPTGHlAQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134537241709-g6p39339fh40bo5emop90q33bmk24649.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

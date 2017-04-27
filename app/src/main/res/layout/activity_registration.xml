@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="lite.organizer.mtg.harlequin.com.hedronalignment.RegistrationActivity"
+    android:background="@color/colorPrimary"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fabio Perpetua"
+            android:gravity="center"
+            fontPath="fonts/Qwigley.ttf"
+            tools:ignore="MissingPrefix"
+            android:typeface="normal"
+            android:textSize="64sp"
+            android:textColor="@color/pureWhite"/>
+
+        <TextView
+            android:textColor="@color/pureWhite"
+            fontPath="fonts/Hero_Light.otf"
+            android:gravity="center"
+            android:text="Barber Shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            tools:ignore="MissingPrefix"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:orientation="vertical"
+        android:id="@+id/firstLayout"
+        >
+
+        <EditText
+            android:textColorHint="@color/pureWhite"
+            android:textColor="@color/pureWhite"
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email..."
+            fontPath="fonts/Hero_Light.otf"
+            tools:ignore="MissingPrefix"
+            android:layout_marginBottom="12dp"/>
+        <EditText
+            android:textColorHint="@color/pureWhite"
+
+            android:textColor="@color/pureWhite"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password..."
+            fontPath="fonts/Hero_Light.otf"
+            tools:ignore="MissingPrefix"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="24dp"
+            >
+
+            <com.facebook.login.widget.LoginButton
+                android:padding="10dp"
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12dp"
+                android:textSize="14sp"
+                fontPath="fonts/Hero_Light.otf"
+                />
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/rippleAccedi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mrl_rippleDuration="350"
+                app:mrl_rippleColor="@color/pureWhite"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleDimension="10dp"
+                app:mrl_rippleOverlay="true">
+
+            <Button
+                android:background="@color/colorPrimary"
+                android:id="@+id/login"
+                android:text="Accedi con Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/pureWhite"
+                fontPath="fonts/Hero_Light.otf"
+                tools:ignore="MissingPrefix"/>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+            <com.balysv.materialripple.MaterialRippleLayout
+                android:id="@+id/rippleRegistrati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mrl_rippleDuration="350"
+                app:mrl_rippleColor="@color/pureWhite"
+                app:mrl_rippleDelayClick="true"
+                app:mrl_rippleAlpha="0.1"
+                app:mrl_rippleDimension="10dp"
+                app:mrl_rippleOverlay="true">
+            <Button
+                android:textColor="@color/pureWhite"
+                android:background="@color/colorPrimary"
+                android:id="@+id/registration"
+                android:text="Registrati"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                fontPath="fonts/Hero_Light.otf"
+                tools:ignore="MissingPrefix"/>
+            </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

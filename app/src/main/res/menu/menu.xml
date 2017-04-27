@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/linearViewHorizontal"
+        android:title="Linear Horizontal"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        tools:ignore="AppCompatResource"/>
+
+    <item
+        android:id="@+id/linearViewVertical"
+        android:title="Linear Vertical"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        tools:ignore="AppCompatResource"/>
+
+    <item
+        android:id="@+id/gridView"
+        android:title="GridView"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        tools:ignore="AppCompatResource"/>
+
+    <item
+        android:id="@+id/staggeredViewVertical"
+        android:title="Staggered Vertical"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        tools:ignore="AppCompatResource"/>
+
+    <item
+        android:id="@+id/staggeredViewHorizontal"
+        android:title="Staggered Horizontal"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        tools:ignore="AppCompatResource"/>
+
+    <item
+
+        android:id="@+id/logout_btn"
+        android:title="LogOut"
+        android:showAsAction="never"
+        android:orderInCategory="100"
+        tools:ignore="AppCompatResource"/>
+
+
+
+</menu>
